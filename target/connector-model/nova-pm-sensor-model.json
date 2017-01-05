@@ -1,0 +1,79 @@
+{
+  "minMuleVersion": "3.5.0",
+  "requiresEntitlement": false,
+  "requiresEnterpriseLicense": false,
+  "configs": [
+    {
+      "configElementName": "config",
+      "attributes": [
+        {
+          "javaTypeName": "String",
+          "fullQualifiedJavaTypeName": "java.lang.String",
+          "defaultValue": "/dev/ttyUSB0",
+          "isOptional": true,
+          "isRefOnly": false,
+          "isPayload": false,
+          "isComplexType": false,
+          "isEnum": false,
+          "isString": true,
+          "typeMirror": "java.lang.String",
+          "isHttpCallback": false,
+          "isArrayOrListOrMap": false,
+          "javaName": "serialPortDevice",
+          "description": "Configure the Nova PM Sensor"
+        }
+      ],
+      "javaName": "ConnectorConfig",
+      "friendlyName": "Configuration",
+      "type": "ConfigurationConfig"
+    }
+  ],
+  "attributes": [],
+  "processors": [
+    {
+      "isPaged": false,
+      "isBatch": false,
+      "samples": [],
+      "javaReturnType": {
+        "javaTypeName": "Map\u003cString,Object\u003e",
+        "fullQualifiedJavaTypeName": "java.util.Map\u003cjava.lang.String,java.lang.Object\u003e",
+        "isOptional": false,
+        "isRefOnly": false,
+        "isPayload": false,
+        "isComplexType": false,
+        "isEnum": false,
+        "isString": false,
+        "isHttpCallback": false,
+        "description": "Get reading from the Nova PM Sensor"
+      },
+      "parameters": [
+        {
+          "javaTypeName": "String",
+          "fullQualifiedJavaTypeName": "java.lang.String",
+          "isOptional": false,
+          "isRefOnly": false,
+          "isPayload": false,
+          "isComplexType": false,
+          "isEnum": false,
+          "isString": true,
+          "typeMirror": "java.lang.String",
+          "isHttpCallback": false,
+          "isArrayOrListOrMap": false,
+          "metaDataKeyParam": "AUTO",
+          "javaName": "entityType"
+        }
+      ],
+      "apiDocUrl": "",
+      "javaName": "readSensor",
+      "friendlyName": "Read Sensor Data",
+      "description": "Read a single sensor reading from the Nova PM Sensor",
+      "xsdName": "read-sensor"
+    }
+  ],
+  "filters": [],
+  "transformers": [],
+  "sources": [],
+  "javaName": "NovaPmSensorConnector",
+  "friendlyName": "Nova PM Sensor",
+  "xsdName": "nova-pm-sensor"
+}

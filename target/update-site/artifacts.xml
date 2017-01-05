@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository version='1.1.0'?>
+<repository name='file:/Users/ken/workspaces/AnypointStudio/workspace/nova-pm-sensor-connector/target/update-site/ - artifacts' type='org.eclipse.equinox.p2.artifact.repository.simpleRepository' version='1'>
+  <properties size='2'>
+    <property name='p2.timestamp' value='1476108738759'/>
+    <property name='p2.compressed' value='false'/>
+  </properties>
+  <mappings size='3'>
+    <rule filter='(&amp; (classifier=osgi.bundle))' output='${repoUrl}/plugins/${id}_${version}.jar'/>
+    <rule filter='(&amp; (classifier=binary))' output='${repoUrl}/binary/${id}_${version}'/>
+    <rule filter='(&amp; (classifier=org.eclipse.update.feature))' output='${repoUrl}/features/${id}_${version}.jar'/>
+  </mappings>
+  <artifacts size='2'>
+    <artifact classifier='org.eclipse.update.feature' id='org.mule.tooling.ui.extension.nova-pm-sensor-connector.3.5.0' version='1.0.0.201610102212'>
+      <properties size='4'>
+        <property name='artifact.size' value='655'/>
+        <property name='download.size' value='655'/>
+        <property name='download.md5' value='d37d361a10b9feaf5bfc75f8016f2014'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.mule.tooling.ui.contribution.nova-pm-sensor.3.5.0' version='1.0.0.201610102212'>
+      <properties size='3'>
+        <property name='artifact.size' value='589323'/>
+        <property name='download.size' value='589323'/>
+        <property name='download.md5' value='2569523e82c00ed059989962032878d6'/>
+      </properties>
+    </artifact>
+  </artifacts>
+</repository>
