@@ -1,34 +1,12 @@
 # Nova PM Sensor Anypoint Connector
 
-[Connector description including destination service or application with]
+A connector for the Nova Particulate Matter Sensor via Serial interface.
+Sensor Details: http://inovafitness.com/en/Laser-PM2-5-Sensor-35.html
+Sensor Specs: http://inovafitness.com/software/SDS011%20laser%20PM2.5%20sensor%20specification-V1.3.pdf
+Where to get: https://www.aliexpress.com/item/nova-PM-sensor-SDS011-High-precision-laser-pm2-5-air-quality-detection-sensor-module-Super-dust/32317805049.html
 
 # Mule supported versions
-Examples:
-Mule 3.4.x, 3.5.x
-Mule 3.4.1
-
-# [Destination service or application name] supported versions
-Example:
-Oracle E-Business Suite 12.1 and above.
-
-#Service or application supported modules
-Example:
-Oracle CRM
-Oracle Financials
-or 
-Salesforce API v.24
-Salesforce Metadata API
-
+Tested with Mule 3.8.x
 
 # Installation 
-For beta connectors you can download the source code and build it with devkit to find it available on your local repository. Then you can add it to Studio
-
-For released connectors you can download them from the update site in Anypoint Studio. 
-Open Anypoint Studio, go to Help → Install New Software and select Anypoint Connectors Update Site where you’ll find all avaliable connectors.
-
-#Usage
-For information about usage our documentation at http://github.com/mulesoft/serial-port.
-
-# Reporting Issues
-
-We use GitHub:Issues for tracking issues with this connector. You can report new issues at this link http://github.com/mulesoft/serial-port/issues.
+You can download the source code and build it with devkit to find it available on your local repository. Then you can add it to Studio
