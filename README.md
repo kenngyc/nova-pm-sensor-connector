@@ -11,3 +11,12 @@ Tested with Mule 3.8.x
 
 # Installation 
 You can download the source code and build it with devkit to find it available on your local repository. Then you can add it to Studio
+
+# Details
+It reads the data from the sensor over the serial interface and returns the following map object.
+
+| Key | Type | Description |
+| --- | --- | --- |
+| hex | String | The raw data output from the sensor in hex code |
+| pm10 | Double | The PM 10 reading |
+| pm25 | Double | The PM 2.5 reading |
